@@ -237,3 +237,55 @@ console.log(reduceArray([-2, 0, 2]));
 
 //  console.log(addLogin(logins, 'jqueryisextremelyfast')); 
 // // 'Ошибка! Логин должен быть от 4 до 16 символов' 
+
+
+
+// --- Додаткові задачі цього модуля  --- // 
+
+// фукнція знайти найменше число //
+
+// const findSmallestNumber = function (items) {
+//   let smallestNumber = items[0];
+
+//   for (let i = 1; i < items.length; i += 1) {
+//     if (items[i] < smallestNumber) {
+//       smallestNumber = items[i];
+//     }
+//   }
+//   return smallestNumber;
+// };
+
+// console.log(findSmallestNumber([123, 45, 3542, 3534]));
+
+
+// --- функція для додавання слагу--- // 
+
+// const slugify = function (string) {
+//   const words = string.toLowerCase().split(" ");
+//   const slug = words.join("-");
+//   return slug;
+// };
+
+// const articles = [
+//   "Топ найкращих друзів Оушена - дивіться в кінотеатрах",
+//   "Слідкуйте за нашим каналом і ви побачити лише найкраще",
+//   "А зараз про погоду і не тільки, бо життя то суцільий вітер",
+// ];
+
+// const slugs = [];
+
+// for (const article of articles) {
+//   const slug = slugify(article);
+//   slugs.push(slug);
+// }
+// console.log(slugs);
+
+
+// ----- додаємо будь-що до кожного елементу масива ---- //
+
+// const numbers = [];
+// for (let i = 0; i < 3; i += 1) {
+//   numbers.push(`label-${i+0}`);
+// }
+
+// console.log("numbers: ", numbers); // ['label-0', 'label-1', 'label-2']
